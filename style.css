@@ -225,3 +225,114 @@ a:hover {
 	height: 32px;
 	margin-top: 40px;
 }
+
+.pricing {
+	max-width: 2546px;
+	height: 938px;
+	background-image: url("./assets/images/Rectangle.png");
+	background-repeat: no-repeat;
+	background-position:cover;
+	background-size: auto 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pricing__content {
+	max-width: 600px;
+	text-align: center;
+}
+
+.pricing__price {
+	font-size: 50px;
+	line-height: 1.32;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #222f65;
+}
+
+.pricing__title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.625;
+	text-align: center;
+	color: #37447e;
+}
+
+.pricing__body {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71429;
+	text-align: center;
+	color: #5d6970;
+}
+
+.pricing__button {
+	width: 189px;
+	height: 31px;
+	font-size: 14px;
+	line-height: 1.71429;
+}
+
+.footer-content {
+	max-width: 1440px;
+	height: 216px;
+	background-color: #e7ecff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footer-content__upper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.footer-content__image {
+}
+
+.footer-content__button {
+	width: 109px;
+	height: 26px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.footer-content__rectangle {
+	max-width: 1110px;
+	width: 80%;
+	height: 1px;
+	background: #cdd1d4;
+}
+.footer-content__lower {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.footer-content__navigation {
+	width: 245px;
+	height: 24px;
+}
+
+.footer-content__list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-content__list-item {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71429;
+	color: #929ecc;
+}
+.footer-content__social {
+	
+}
+.footer-content__social-item {
+}
