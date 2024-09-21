@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;/* Need to finish it! If I want to keep center position (and I want) then need to make corrections in previous code where appeared some displacement.*/
   padding: 0;
   box-sizing: border-box;
 }
@@ -349,6 +349,7 @@ a:hover {
   gap: 30px;
 }
 
-.footer-content__social-item {
-  aspect-ratio: 1;
+.footer-content__social-item:hover{
+	opacity: 0.7;
+	cursor: pointer;
 }
