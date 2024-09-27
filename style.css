@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;/* Need to finish it! If I want to keep center position (and I want) then need to make corrections in previous code where appeared some displacement.*/
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -50,6 +50,7 @@ body {
   max-width: 245px;
 	width: 100%;
   height: 24px;
+	margin: 0;
 }
 
 .header__list {
@@ -74,6 +75,10 @@ a:hover {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
+}
+
+.logo {
+	margin: 0;
 }
 
 .header__button {
@@ -309,6 +314,10 @@ a:hover {
   justify-content: space-between;
 }
 
+.footer-content__image {
+	margin: 0;
+}
+
 .footer-content__button {
   width: 109px;
   height: 26px;
@@ -326,6 +335,7 @@ a:hover {
 .footer-content__navigation {
   width: 245px;
   height: 24px;
+	margin: 0;
 }
 
 .footer-content__list {
@@ -345,6 +355,7 @@ a:hover {
 }
 
 .footer-content__social {
+	margin: 0;
   display: flex;
   gap: 30px;
 }
