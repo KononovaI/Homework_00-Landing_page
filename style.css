@@ -30,11 +30,9 @@ body {
 .hero-background {
   background-image: url("./assets/images/designer_1.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
-  width: 1911px;
-  height: 1161px;
-  /* padding: -86px 412px 37px -59px; Need to finish it! Negative padding isn't valid in CSS. It should adjusted with margins instead. Margins in row background-image? Or transition? Other solution? */ 
+  background-position: 421px -86px; /*362px+59px*/
+  min-width: 1440px;
+  min-height: 1073px; /*1159px-86px*/
   margin-bottom: 37px;
 }
 
@@ -43,7 +41,6 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 60px;
-  padding-right: 412px;
 }
 
 .header__navigation {
